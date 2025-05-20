@@ -4,7 +4,14 @@ Frontend for Wrenfield Consulting. We build systems, structure, and digital tool
 
 ## Getting Started
 
-First, install the dependencies:
+First, install the dependencies by running the provided setup script:
+
+```bash
+./setup.sh
+```
+
+The script uses `npm ci` to install all packages. If you prefer to install
+manually, you can run one of the standard commands:
 
 ```bash
 npm install
