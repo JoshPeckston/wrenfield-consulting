@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply h-full;
+    color-scheme: dark; /* Ensure system UI elements respect dark theme */
+  }
+  body {
+    /* Added subtle noise and position relative for scanline */
+    @apply bg-deep-black text-off-white font-sans flex flex-col min-h-full relative;
+    /* Subtle noise effect using a linear gradient; adjust opacity/colors as needed */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+    background-size: 2px 2px; /* Size of the 'pixels' for the noise */
+    overflow-x: hidden; /* Prevent horizontal scrollbar from scanline sometimes */
+  }
+
+  /* Scanline effect */
+  body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px; /* Thickness of the scanline */
+    background: rgba(0, 255, 136, 0.05); /* Faint terminal green scanline */
+    box-shadow: 0 0 5px rgba(0, 255, 136, 0.1), 
+                0 0 10px rgba(0, 255, 136, 0.05);
+    animation: scanline-anim 12s linear infinite;
+    z-index: 9999; /* Ensure it's on top */
+    pointer-events: none; /* So it doesn't interfere with interactions */
+  }
+
+  @keyframes scanline-anim {
+    0% {
+      transform: translateY(-10px); /* Start off-screen */
+      opacity: 0.1;
+    }
+    50% {
+      opacity: 0.05; /* Fade slightly in the middle */
+    }
+    100% {
+      transform: translateY(100vh); /* End off-screen at the bottom */
+      opacity: 0.1;
+    }
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-mono text-off-white;
+  }
+
+  a {
+    @apply transition-all duration-200 ease-in-out;
+  }
+
+  a:hover,
+  a:focus {
+    /* Subtle glow for text links */
+    @apply text-terminal-green;
+    text-shadow: 0 0 3px var(--color-terminal-green-transparent, rgba(0, 255, 136, 0.5)),
+                 0 0 6px var(--color-terminal-green-transparent-faint, rgba(0, 255, 136, 0.25));
+  }
+
+  /* General button styling for hover/focus - can be more specific if needed */
+  button:hover,
+  button:focus,
+  [role="button"]:hover,
+  [role="button"]:focus,
+  .button-like:hover, /* A generic class you might use for button-like styled elements */
+  .button-like:focus {
+    @apply outline-none;
+    /* Example: Add a subtle glow or slightly change opacity for buttons */
+    /* For filled buttons like the 'Sign Up' in Navbar */
+    filter: brightness(1.15) drop-shadow(0 0 3px var(--color-terminal-green-transparent, rgba(0, 255, 136, 0.5)));
+  }
+
+  /* Specific hover for terminal green buttons (like Sign Up in Navbar) */
+  .bg-terminal-green:hover,
+  .bg-terminal-green:focus {
+    /* Corrected opacity to use slash notation with the base color utility */
+    @apply bg-terminal-green/90 text-deep-black; 
+    box-shadow: 0 0 8px var(--color-terminal-green, #00FF88),
+                0 0 12px var(--color-terminal-green-transparent, rgba(0, 255, 136, 0.7));
+  }
+
+  /* Specific hover for bordered buttons (like 'Explore Plans' CTA) */
+  .border-terminal-green.text-terminal-green:hover,
+  .border-terminal-green.text-terminal-green:focus {
+    @apply bg-terminal-green text-deep-black; /* Fill on hover */
+    box-shadow: 0 0 8px var(--color-terminal-green, #00FF88),
+                0 0 12px var(--color-terminal-green-transparent, rgba(0, 255, 136, 0.7));
+  }
+
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
