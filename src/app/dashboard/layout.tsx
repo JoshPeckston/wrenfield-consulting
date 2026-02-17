@@ -5,6 +5,7 @@ import Image from 'next/image'; // Import Image for logo
 // Define the navigation items for the sidebar based on the wireframe
 const sidebarNavItems = [
   { name: 'Overview', href: '/dashboard', icon: '📊' }, // Example icon
+  { name: 'Image Studio', href: '/dashboard/image-studio', icon: '🎨' },
   { name: 'My Services', href: '/dashboard/services', icon: '🛠️' },
   { name: 'My Resources', href: '/dashboard/resources', icon: '📚' },
   { name: 'Support / Submit Brief', href: '/dashboard/support', icon: '💬' },

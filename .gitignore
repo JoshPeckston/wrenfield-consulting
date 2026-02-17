@@ -94,3 +94,11 @@ lerna-debug.log*
 
 # Cascade files
 .cascade/
+
+# Generated images (AI-created content)
+public/generated-images/*.png
+public/generated-images/*.jpg
+!public/generated-images/.gitkeep
+
+# Image store data
+src/data/images.json
