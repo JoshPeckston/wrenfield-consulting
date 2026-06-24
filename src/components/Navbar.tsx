@@ -25,6 +25,10 @@ const Navbar = () => {
           <Link href="/#services" className="hover:text-terminal-green transition-colors duration-200">Services</Link>
           <Link href="/#pricing" className="hover:text-terminal-green transition-colors duration-200">Pricing</Link>
           <Link href="/#case-studies" className="hover:text-terminal-green transition-colors duration-200">Case Studies</Link>
+          <Link href="/minerals" className="hover:text-terminal-green transition-colors duration-200 flex items-center gap-1">
+            <span className="text-terminal-green/60 font-mono text-xs">//</span>
+            Minerals
+          </Link>
           <Link
             href="/signup"
             className="bg-terminal-green text-deep-black px-4 py-2 rounded hover:bg-opacity-80 text-sm font-semibold transition-all transform hover:scale-105"

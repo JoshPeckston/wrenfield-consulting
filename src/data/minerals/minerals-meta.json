@@ -1,0 +1,630 @@
+{
+  "minerals": [
+    {
+      "slug": "gold",
+      "name": "Gold",
+      "symbol": "Au",
+      "category": "precious",
+      "atomicNumber": 79,
+      "description": "The world's primary store of value and monetary metal, with unmatched demand in jewellery, central bank reserves, and electronics.",
+      "longDescription": "Gold has served as humanity's primary store of value for millennia. Its unique combination of chemical stability, rarity, and aesthetic appeal makes it the foundation of global monetary systems. Central banks worldwide hold gold as a reserve asset, and it remains the definitive safe-haven investment during economic uncertainty. Industrial demand — particularly in electronics for its outstanding electrical conductivity and corrosion resistance — adds another layer to its complex price dynamics.",
+      "unit": "troy_oz",
+      "industries": ["Jewellery", "Central Banking", "Electronics", "Aerospace", "Medicine"],
+      "keyProducers": ["China", "Australia", "Russia", "Canada", "United States"],
+      "tags": ["safe-haven", "monetary", "jewellery", "reserve-asset"],
+      "priceDrivers": [
+        "US Dollar strength — inverse correlation with gold price",
+        "Central bank reserve buying, particularly China and emerging markets",
+        "Geopolitical risk and global uncertainty premiums",
+        "Real interest rates — lower rates increase gold's appeal",
+        "ETF flows and institutional investment demand",
+        "Jewellery demand from India and China seasonality"
+      ],
+      "esgNotes": [
+        "Mercury-free mining practices increasingly adopted in artisanal mining",
+        "Tailings dam failures remain a key environmental risk",
+        "Gold recycling rate approximately 90% — highest of any metal",
+        "Water usage a significant concern in arid mining regions"
+      ],
+      "demandSectors": [
+        { "sector": "Jewellery", "share": 46 },
+        { "sector": "Investment / ETFs", "share": 22 },
+        { "sector": "Central Banks", "share": 18 },
+        { "sector": "Technology", "share": 14 }
+      ]
+    },
+    {
+      "slug": "silver",
+      "name": "Silver",
+      "symbol": "Ag",
+      "category": "precious",
+      "atomicNumber": 47,
+      "description": "The dual-demand metal — prized as a monetary asset and simultaneously the most electrically conductive material on Earth, critical to solar panels.",
+      "longDescription": "Silver occupies a unique position straddling precious and industrial metals. As the most electrically conductive element, it is irreplaceable in solar photovoltaic cells, with each panel requiring approximately 20 grams. The global solar expansion is creating structural demand growth. Simultaneously, its monetary heritage and affordability relative to gold drive retail investment. The silver market is significantly smaller and more volatile than gold, making it sensitive to both macroeconomic shifts and industrial demand cycles.",
+      "unit": "troy_oz",
+      "industries": ["Solar Energy", "Electronics", "Photography", "Jewellery", "Investment"],
+      "keyProducers": ["Mexico", "China", "Peru", "Chile", "Russia"],
+      "tags": ["solar", "industrial", "monetary", "photovoltaics"],
+      "priceDrivers": [
+        "Solar panel demand — each GW of solar capacity requires ~80 tonnes of silver",
+        "Gold-to-silver ratio — historically 60-80:1, deviations signal opportunity",
+        "Industrial electronics demand from semiconductors and 5G infrastructure",
+        "Investment demand via physical coins, bars, and ETFs",
+        "Mining as a byproduct of lead, zinc, and copper production constrains supply"
+      ],
+      "esgNotes": [
+        "Significant portion mined as byproduct — lower incremental environmental impact",
+        "High recycling rate from electronics but complex recovery processes",
+        "Water cyanide leaching used in extraction — environmental management critical"
+      ],
+      "demandSectors": [
+        { "sector": "Industrial", "share": 54 },
+        { "sector": "Jewellery & Silverware", "share": 20 },
+        { "sector": "Investment", "share": 16 },
+        { "sector": "Photography", "share": 10 }
+      ]
+    },
+    {
+      "slug": "platinum",
+      "name": "Platinum",
+      "symbol": "Pt",
+      "category": "precious",
+      "atomicNumber": 78,
+      "description": "Rarer than gold, platinum is the cornerstone of automotive catalytic converters and an emerging fuel cell metal for hydrogen energy.",
+      "longDescription": "Platinum is the most industrially critical of the platinum group metals. Its extraordinary catalytic properties make it the primary material in automotive catalytic converters, which convert harmful exhaust gases into less harmful emissions. The shift away from diesel vehicles has pressured demand, but green hydrogen fuel cells — which use platinum as the catalyst — are creating a new structural demand driver. South Africa alone accounts for approximately 70% of global supply, creating significant concentration risk.",
+      "unit": "troy_oz",
+      "industries": ["Automotive", "Hydrogen Energy", "Jewellery", "Chemicals", "Electronics"],
+      "keyProducers": ["South Africa", "Russia", "Zimbabwe", "Canada", "United States"],
+      "tags": ["catalytic-converter", "hydrogen", "fuel-cell", "pgm"],
+      "priceDrivers": [
+        "Diesel vehicle sales volumes — primary automotive demand driver",
+        "Green hydrogen fuel cell adoption and electrolyser demand",
+        "South African mine supply disruptions (load-shedding, labour)",
+        "Substitution risk from palladium in petrol catalytic converters",
+        "Jewellery demand primarily from China and Japan"
+      ],
+      "esgNotes": [
+        "Deep hard-rock mining in South Africa — significant safety and energy challenges",
+        "Essential enabler of zero-emission hydrogen fuel cell technology",
+        "Complex ore processing generates significant waste rock"
+      ],
+      "demandSectors": [
+        { "sector": "Automotive", "share": 40 },
+        { "sector": "Industrial", "share": 28 },
+        { "sector": "Jewellery", "share": 20 },
+        { "sector": "Investment", "share": 12 }
+      ]
+    },
+    {
+      "slug": "palladium",
+      "name": "Palladium",
+      "symbol": "Pd",
+      "category": "precious",
+      "atomicNumber": 46,
+      "description": "The dominant metal in petrol/gasoline catalytic converters, with over 85% of demand driven by automotive emission control systems.",
+      "longDescription": "Palladium's price story is primarily one of automotive emission regulation. As global emissions standards tightened — especially China's China 6 and Euro 6d standards — automakers loaded more palladium into catalytic converters to achieve compliance. Russia (via Norilsk Nickel) and South Africa supply over 75% of global output, creating extreme geopolitical concentration. The EV transition represents both a long-term demand threat and a near-term reshaping of supply chains.",
+      "unit": "troy_oz",
+      "industries": ["Automotive", "Electronics", "Dentistry", "Hydrogen"],
+      "keyProducers": ["Russia", "South Africa", "Canada", "United States", "Zimbabwe"],
+      "tags": ["catalytic-converter", "automotive", "pgm", "russia"],
+      "priceDrivers": [
+        "Global petrol/gasoline vehicle production volumes",
+        "Emissions legislation tightening requiring more catalyst loading",
+        "Russian supply availability — Norilsk Nickel dominance",
+        "Substitution with platinum in catalytic converters (technical challenge)",
+        "EV adoption rate undermining long-term autocatalyst demand"
+      ],
+      "esgNotes": [
+        "Primarily a byproduct of nickel mining — supply inelastic to price",
+        "Critical for reducing NOx and HC emissions from combustion vehicles",
+        "Recycling from end-of-life catalysts provides ~30% of supply"
+      ],
+      "demandSectors": [
+        { "sector": "Automotive", "share": 85 },
+        { "sector": "Industrial", "share": 10 },
+        { "sector": "Dental & Medical", "share": 3 },
+        { "sector": "Investment", "share": 2 }
+      ]
+    },
+    {
+      "slug": "copper",
+      "name": "Copper",
+      "symbol": "Cu",
+      "category": "base",
+      "atomicNumber": 29,
+      "description": "The world's most important industrial metal and the primary conductor of electricity — a bellwether for global economic health and the energy transition.",
+      "longDescription": "Copper is the essential metal of electrification. Every electric vehicle contains 4x more copper than a conventional vehicle. Wind turbines, solar installations, grid infrastructure, and charging networks all demand substantial copper. As the world decarbonises, copper demand is structurally growing at a time when high-grade ore deposits are depleting and new mine development takes 10-15 years. The combination of tightening supply and accelerating demand is creating one of commodities' most compelling long-term outlooks.",
+      "unit": "tonne",
+      "industries": ["Construction", "Electronics", "Electrical", "Transportation", "Energy"],
+      "keyProducers": ["Chile", "Peru", "Democratic Republic of Congo", "China", "United States"],
+      "tags": ["electrification", "ev", "construction", "bellwether"],
+      "priceDrivers": [
+        "Chinese manufacturing activity and property sector health",
+        "Electric vehicle production rates and grid buildout",
+        "Mine supply disruptions — weather, labour, ore grade decline",
+        "Energy transition infrastructure investment globally",
+        "US dollar index — copper priced in USD, inverse correlation"
+      ],
+      "esgNotes": [
+        "Large open-cut mines create significant landscape disruption",
+        "Water usage in arid Chilean and Peruvian operations a growing conflict source",
+        "High recycling rate (~35% of supply from scrap) reduces primary demand",
+        "Tailings management critical — historic dam failures in Brazil and Chile"
+      ],
+      "demandSectors": [
+        { "sector": "Construction", "share": 28 },
+        { "sector": "Infrastructure", "share": 26 },
+        { "sector": "Transportation", "share": 20 },
+        { "sector": "Industrial Machinery", "share": 16 },
+        { "sector": "Consumer Electronics", "share": 10 }
+      ]
+    },
+    {
+      "slug": "lithium",
+      "name": "Lithium",
+      "symbol": "Li",
+      "category": "battery",
+      "atomicNumber": 3,
+      "description": "The lightest metal and the critical input for lithium-ion batteries — the energy storage technology powering the entire EV and grid storage revolution.",
+      "longDescription": "Lithium is the defining metal of the energy transition. Each electric vehicle battery pack contains 6-12 kg of lithium carbonate equivalent. The world's lithium comes from two primary sources: brine deposits in South America's 'Lithium Triangle' (Chile, Argentina, Bolivia) and hard-rock spodumene deposits primarily in Australia. Price volatility is extreme — lithium underwent a 10x price spike in 2021-22 followed by an 80% correction in 2023-24 as supply caught up with initial EV demand surge. Long-term demand remains structurally elevated.",
+      "unit": "tonne",
+      "industries": ["Electric Vehicles", "Grid Storage", "Consumer Electronics", "Ceramics", "Lubricants"],
+      "keyProducers": ["Australia", "Chile", "China", "Argentina", "Brazil"],
+      "tags": ["ev", "battery", "energy-transition", "lithium-triangle"],
+      "priceDrivers": [
+        "EV production volumes and battery capacity per vehicle",
+        "Grid-scale energy storage deployment for renewables",
+        "New mine commissioning timelines — 5-8 year development cycles",
+        "Chinese battery manufacturer inventory cycles",
+        "Lithium carbonate vs. lithium hydroxide price spread (NMC vs. LFP chemistry)"
+      ],
+      "esgNotes": [
+        "Brine extraction in Atacama Desert raises water scarcity concerns",
+        "Hard-rock spodumene mining generates significant waste rock",
+        "Battery recycling infrastructure still nascent — improving rapidly",
+        "Indigenous community consultation required in South American operations"
+      ],
+      "demandSectors": [
+        { "sector": "Electric Vehicles", "share": 65 },
+        { "sector": "Consumer Electronics", "share": 20 },
+        { "sector": "Grid Storage", "share": 10 },
+        { "sector": "Industrial & Other", "share": 5 }
+      ]
+    },
+    {
+      "slug": "cobalt",
+      "name": "Cobalt",
+      "symbol": "Co",
+      "category": "battery",
+      "atomicNumber": 27,
+      "description": "An essential battery metal under intense scrutiny — the DRC supplies 70% of global cobalt, with significant artisanal mining and human rights concerns.",
+      "longDescription": "Cobalt is a critical stabiliser in lithium-ion battery cathodes, providing thermal stability and energy density. However, the Democratic Republic of Congo's dominance — supplying over 70% of global output — combined with well-documented artisanal mining conditions and child labour concerns have driven battery manufacturers to aggressively reduce cobalt content. The shift towards LFP (lithium iron phosphate) batteries and low-cobalt NMC chemistries is structurally reducing cobalt intensity per kWh, even as total battery demand grows.",
+      "unit": "tonne",
+      "industries": ["Electric Vehicles", "Superalloys", "Consumer Electronics", "Catalysts"],
+      "keyProducers": ["Democratic Republic of Congo", "Russia", "Australia", "Philippines", "Cuba"],
+      "tags": ["battery", "drc", "ev", "human-rights", "superalloy"],
+      "priceDrivers": [
+        "Battery chemistry shifts — LFP adoption reduces cobalt intensity",
+        "DRC supply stability — political and operational risk",
+        "Nickel laterite processing providing cobalt as byproduct",
+        "Superalloy demand from aerospace and industrial gas turbines",
+        "Chinese strategic stockpiling and CATL inventory management"
+      ],
+      "esgNotes": [
+        "Artisanal and small-scale mining in DRC — significant child labour concerns",
+        "Major battery makers committed to responsible sourcing frameworks",
+        "Cobalt-free battery chemistries (LFP, sodium-ion) gaining market share",
+        "Recycling cobalt from end-of-life batteries increasingly economic"
+      ],
+      "demandSectors": [
+        { "sector": "Electric Vehicles", "share": 40 },
+        { "sector": "Consumer Electronics", "share": 32 },
+        { "sector": "Superalloys", "share": 18 },
+        { "sector": "Other", "share": 10 }
+      ]
+    },
+    {
+      "slug": "nickel",
+      "name": "Nickel",
+      "symbol": "Ni",
+      "category": "battery",
+      "atomicNumber": 28,
+      "description": "The essential metal in stainless steel and high-energy-density EV batteries, with Indonesia emerging as the dominant global supplier.",
+      "longDescription": "Nickel serves dual roles: as the primary alloying element in stainless steel (66% of demand) and as the key energy-density enabler in NMC battery cathodes for EVs. Indonesia has transformed the nickel market by processing low-grade laterite ore into nickel pig iron (NPI) for stainless steel, and increasingly into battery-grade nickel sulphate. This has driven global supply growth but raised environmental concerns around tropical forest destruction. High-grade Class 1 nickel for batteries commands a premium over lower-grade NPI.",
+      "unit": "tonne",
+      "industries": ["Stainless Steel", "Electric Vehicles", "Alloys", "Plating"],
+      "keyProducers": ["Indonesia", "Philippines", "Russia", "New Caledonia", "Canada"],
+      "tags": ["stainless-steel", "battery", "ev", "indonesia"],
+      "priceDrivers": [
+        "Stainless steel production volumes in China — largest single demand driver",
+        "Indonesian NPI and HPAL supply growth compressing prices",
+        "High-purity battery-grade nickel premium over NPI",
+        "EV adoption and NMC battery demand trajectory",
+        "LME warehouse stocks and physical availability"
+      ],
+      "esgNotes": [
+        "Indonesian HPAL projects raising deforestation and coastal discharge concerns",
+        "Sudbury Ontario operations — historic acid rain damage, now significantly remediated",
+        "Nickel is fully recyclable from stainless steel scrap — high secondary supply"
+      ],
+      "demandSectors": [
+        { "sector": "Stainless Steel", "share": 66 },
+        { "sector": "Alloys & Engineering", "share": 16 },
+        { "sector": "Electric Vehicles", "share": 12 },
+        { "sector": "Electroplating", "share": 6 }
+      ]
+    },
+    {
+      "slug": "aluminium",
+      "name": "Aluminium",
+      "symbol": "Al",
+      "category": "base",
+      "atomicNumber": 13,
+      "description": "The world's most abundant metal and the second most traded commodity — critical to transport lightweighting, packaging, and construction.",
+      "longDescription": "Aluminium is produced from bauxite ore via the Bayer process and then refined through energy-intensive electrolysis (the Hall-Héroult process). Energy costs typically represent 30-40% of primary aluminium production costs, making it one of the most energy-sensitive commodities. China produces over 55% of global supply. The metal's exceptional strength-to-weight ratio makes it irreplaceable in automotive lightweighting, aircraft construction, and beverage can packaging. Recycled aluminium requires only 5% of the energy of primary production.",
+      "unit": "tonne",
+      "industries": ["Transportation", "Packaging", "Construction", "Electrical", "Consumer Goods"],
+      "keyProducers": ["China", "India", "Russia", "Canada", "United Arab Emirates"],
+      "tags": ["lightweight", "packaging", "construction", "energy-intensive"],
+      "priceDrivers": [
+        "Energy costs — electricity prices directly impact smelting economics",
+        "Chinese production capacity and government policy on energy-intensive industry",
+        "Automotive lightweighting demand for EVs and conventional vehicles",
+        "Scrap availability and recycling rates",
+        "Bauxite supply from Guinea, Australia, and Brazil"
+      ],
+      "esgNotes": [
+        "Primary smelting is highly energy-intensive — carbon footprint varies by energy source",
+        "Recycled aluminium saves 95% of energy vs. primary — strong circular economy story",
+        "Bauxite mining causes habitat destruction in tropical regions",
+        "Red mud (bauxite residue) management remains an environmental challenge"
+      ],
+      "demandSectors": [
+        { "sector": "Transport", "share": 27 },
+        { "sector": "Packaging", "share": 25 },
+        { "sector": "Construction", "share": 23 },
+        { "sector": "Electrical", "share": 14 },
+        { "sector": "Consumer Goods", "share": 11 }
+      ]
+    },
+    {
+      "slug": "zinc",
+      "name": "Zinc",
+      "symbol": "Zn",
+      "category": "base",
+      "atomicNumber": 30,
+      "description": "The fourth most consumed metal globally, primarily used to galvanise steel against corrosion in construction and automotive applications.",
+      "longDescription": "Zinc is the essential rust preventative. Galvanising — coating steel with zinc to prevent oxidation — accounts for approximately 60% of zinc demand. The construction sector is therefore the primary demand driver, particularly in emerging markets where infrastructure investment is accelerating. Zinc is mined as a co-product of lead and silver, meaning supply responds slowly to price signals. LME warehouse stocks are a critical leading indicator of near-term price direction.",
+      "unit": "tonne",
+      "industries": ["Construction", "Automotive", "Galvanising", "Brass", "Rubber"],
+      "keyProducers": ["China", "Peru", "Australia", "India", "United States"],
+      "tags": ["galvanising", "construction", "corrosion", "infrastructure"],
+      "priceDrivers": [
+        "Global construction activity, particularly in China and emerging markets",
+        "Mine supply disruptions — frequent in Peru and Australia",
+        "LME inventory levels — a critical sentiment indicator",
+        "Galvanised steel demand from automotive sector",
+        "Lead-zinc co-production dynamics constraining pure supply response"
+      ],
+      "esgNotes": [
+        "Zinc is essential for human health — used in fertilisers combating zinc deficiency",
+        "High recycling rate (80%+ from galvanised steel scrap) at end of building life",
+        "Acid mine drainage from sulphide ore bodies — management critical"
+      ],
+      "demandSectors": [
+        { "sector": "Galvanising", "share": 60 },
+        { "sector": "Brass & Bronze", "share": 17 },
+        { "sector": "Other Alloys", "share": 13 },
+        { "sector": "Chemicals & Other", "share": 10 }
+      ]
+    },
+    {
+      "slug": "iron-ore",
+      "name": "Iron Ore",
+      "symbol": "Fe",
+      "category": "base",
+      "description": "The world's most traded bulk commodity and the raw material for steel — the backbone of global infrastructure and construction.",
+      "longDescription": "Iron ore is the foundational commodity of industrial civilisation. Approximately 2 billion tonnes are traded annually, making it the world's largest commodity market by volume. China consumes over 60% of global seaborne supply, predominantly from Australia and Brazil. Steel production — and therefore iron ore demand — is highly correlated with Chinese property construction and infrastructure investment. The price of 62% Fe iron ore (the benchmark grade) is the primary indicator of global steel supply chain health.",
+      "unit": "tonne",
+      "industries": ["Steel", "Construction", "Infrastructure", "Shipbuilding", "Automotive"],
+      "keyProducers": ["Australia", "Brazil", "China", "India", "Russia"],
+      "tags": ["steel", "construction", "bulk-commodity", "china"],
+      "priceDrivers": [
+        "Chinese steel production rates and property sector construction activity",
+        "Australian and Brazilian mine supply from BHP, Rio Tinto, Vale",
+        "Steel mill margins and blast furnace utilisation rates",
+        "Chinese government stimulus and infrastructure spending",
+        "Green steel transition to direct reduced iron (DRI) using hydrogen"
+      ],
+      "esgNotes": [
+        "Largest mining operations globally by volume — significant landscape impact",
+        "Tailings dam safety — Brumadinho disaster (2019) reshaped industry standards",
+        "Green steel production (hydrogen DRI) reducing iron ore quality requirements",
+        "Dust management at mine sites a significant health concern"
+      ],
+      "demandSectors": [
+        { "sector": "Construction Steel", "share": 50 },
+        { "sector": "Infrastructure Steel", "share": 25 },
+        { "sector": "Manufacturing & Machinery", "share": 15 },
+        { "sector": "Shipbuilding & Other", "share": 10 }
+      ]
+    },
+    {
+      "slug": "uranium",
+      "name": "Uranium",
+      "symbol": "U",
+      "category": "industrial",
+      "atomicNumber": 92,
+      "description": "Nuclear fuel: uranium powers approximately 10% of global electricity, with rapidly expanding demand as nations embrace nuclear energy for decarbonisation.",
+      "longDescription": "Uranium is the fuel for nuclear fission power plants, which generate approximately 10% of global electricity with zero direct carbon emissions. After the Fukushima disaster (2011) triggered mass reactor shutdowns, uranium entered a decade-long bear market. The reversal is dramatic: energy security concerns, nuclear's role in decarbonisation, and the commissioning of new reactors globally — particularly in China (20+ under construction) — have created a structural demand surge. Kazakhstan supplies approximately 45% of global output via state company Kazatomprom.",
+      "unit": "lb",
+      "industries": ["Nuclear Power", "Medical Isotopes", "Defence"],
+      "keyProducers": ["Kazakhstan", "Namibia", "Canada", "Australia", "Uzbekistan"],
+      "tags": ["nuclear", "energy", "decarbonisation", "strategic"],
+      "priceDrivers": [
+        "Global nuclear reactor pipeline and restarts (Japan, Europe, US)",
+        "Chinese nuclear expansion — 20+ reactors under construction",
+        "Kazatomprom production guidance and Sprott Physical Uranium Trust buying",
+        "Conversion and enrichment capacity bottlenecks",
+        "Small Modular Reactor (SMR) development and deployment timelines"
+      ],
+      "esgNotes": [
+        "Zero direct carbon emissions during operation — essential decarbonisation tool",
+        "Radioactive waste management — long-term storage solutions still being finalised",
+        "Strict regulatory environment ensures high safety standards in production",
+        "In-situ leach mining (dominant method) has lower surface disturbance"
+      ],
+      "demandSectors": [
+        { "sector": "Nuclear Power Generation", "share": 95 },
+        { "sector": "Medical & Industrial Isotopes", "share": 3 },
+        { "sector": "Research & Defence", "share": 2 }
+      ]
+    },
+    {
+      "slug": "neodymium",
+      "name": "Neodymium",
+      "symbol": "Nd",
+      "category": "rare-earth",
+      "atomicNumber": 60,
+      "description": "The magnetic rare earth element — neodymium-iron-boron (NdFeB) permanent magnets are the strongest known and are essential in every EV motor and wind turbine.",
+      "longDescription": "Neodymium is the defining rare earth element of the energy transition. NdFeB permanent magnets, containing neodymium (and often praseodymium and dysprosium), produce the most powerful permanent magnetic fields achievable. Every electric vehicle traction motor and direct-drive wind turbine uses these magnets. China controls approximately 60% of global rare earth mining and over 85% of rare earth processing and magnet manufacturing — a concentration that has driven Western governments to prioritise domestic rare earth supply chains as a strategic security matter.",
+      "unit": "kg",
+      "industries": ["Electric Vehicles", "Wind Energy", "Electronics", "Defence", "Robotics"],
+      "keyProducers": ["China", "United States", "Myanmar", "Australia", "Russia"],
+      "tags": ["magnet", "ev", "wind", "china", "strategic"],
+      "priceDrivers": [
+        "EV motor production volumes — each vehicle uses 1-3 kg of NdFeB magnets",
+        "Wind turbine installation rates globally",
+        "Chinese export quotas and rare earth production controls",
+        "Western supply chain diversification investment (MP Materials, Lynas)",
+        "Magnet recycling from end-of-life EVs and electronics (nascent)"
+      ],
+      "esgNotes": [
+        "Rare earth mining generates radioactive thorium and uranium as byproducts",
+        "Chinese processing operations historically had significant pollution legacy",
+        "Western production (Mountain Pass, Mt Weld) held to higher environmental standards",
+        "Closed-loop magnet recycling programs under development"
+      ],
+      "demandSectors": [
+        { "sector": "Permanent Magnets", "share": 72 },
+        { "sector": "Catalysts", "share": 10 },
+        { "sector": "Metallurgy & Alloys", "share": 9 },
+        { "sector": "Other", "share": 9 }
+      ]
+    },
+    {
+      "slug": "gallium",
+      "name": "Gallium",
+      "symbol": "Ga",
+      "category": "critical",
+      "atomicNumber": 31,
+      "description": "A critical semiconductor metal used in gallium nitride (GaN) chips powering 5G infrastructure, radar systems, and high-efficiency power electronics.",
+      "longDescription": "Gallium is one of the most strategically sensitive minerals in the world. It is recovered almost exclusively as a byproduct of alumina refining from bauxite. China produces approximately 80% of global gallium and, in 2023, imposed export controls on gallium and germanium — demonstrating its willingness to use mineral exports as a geopolitical lever. GaN (gallium nitride) semiconductors are superior to silicon in high-frequency, high-power, and high-temperature applications, making gallium irreplaceable in 5G base stations, military radar, satellite communications, and EV fast chargers.",
+      "unit": "kg",
+      "industries": ["Semiconductors", "5G Infrastructure", "Defence", "LED Lighting", "Solar"],
+      "keyProducers": ["China", "Russia", "South Korea", "Japan", "Ukraine"],
+      "tags": ["semiconductor", "5g", "defence", "china-export-control", "GaN"],
+      "priceDrivers": [
+        "Chinese export controls and quota announcements",
+        "5G infrastructure rollout and semiconductor fab investment",
+        "GaN power device adoption in EV chargers and data centres",
+        "Western government efforts to establish ex-China supply",
+        "Alumina refining capacity changes affecting byproduct availability"
+      ],
+      "esgNotes": [
+        "Byproduct recovery — no additional mining required, reduces marginal impact",
+        "Extremely small volumes — total annual production ~500 tonnes globally",
+        "Recycling from semiconductor wafer scrap economically viable"
+      ],
+      "demandSectors": [
+        { "sector": "Integrated Circuits (GaAs/GaN)", "share": 70 },
+        { "sector": "LED & Optoelectronics", "share": 18 },
+        { "sector": "Solar Cells", "share": 7 },
+        { "sector": "Research & Other", "share": 5 }
+      ]
+    },
+    {
+      "slug": "manganese",
+      "name": "Manganese",
+      "symbol": "Mn",
+      "category": "battery",
+      "atomicNumber": 25,
+      "description": "The hidden battery metal — manganese is essential in steel production and increasingly critical in next-generation LFP+ and LMFP battery cathodes.",
+      "longDescription": "Manganese has a dual identity. In steel, it is an essential deoxidiser and alloying agent — approximately 90% of manganese is consumed by the steel industry. In batteries, emerging lithium manganese iron phosphate (LMFP) chemistry promises higher energy density than LFP at lower cost than NMC, potentially making manganese the next battery metal breakout story. South Africa and Gabon supply the majority of high-grade manganese ore, while China dominates processing.",
+      "unit": "tonne",
+      "industries": ["Steel", "Electric Vehicles", "Batteries", "Chemicals", "Aluminium Alloys"],
+      "keyProducers": ["South Africa", "Gabon", "Australia", "China", "Ghana"],
+      "tags": ["steel", "battery", "lmfp", "energy-transition"],
+      "priceDrivers": [
+        "Steel production volumes — primary demand driver",
+        "LMFP battery cathode adoption in next-generation EVs",
+        "South African and Gabonese mining output and port logistics",
+        "Alloy-grade vs. battery-grade manganese price premium",
+        "Chinese electrolytic manganese metal (EMM) production capacity"
+      ],
+      "esgNotes": [
+        "Manganese dust exposure — significant health risk for mine and processing workers",
+        "Open-pit mining in South Africa with well-established operations",
+        "Electrolytic manganese production in China historically significant polluter"
+      ],
+      "demandSectors": [
+        { "sector": "Steel Production", "share": 88 },
+        { "sector": "Batteries", "share": 6 },
+        { "sector": "Chemicals & Other", "share": 6 }
+      ]
+    },
+    {
+      "slug": "lead",
+      "name": "Lead",
+      "symbol": "Pb",
+      "category": "base",
+      "atomicNumber": 82,
+      "description": "The dominant battery metal for conventional lead-acid batteries used in vehicle start systems, industrial backup power, and energy storage.",
+      "longDescription": "Lead is the most recycled metal on Earth, with approximately 85% of global supply coming from recycled lead-acid batteries. Despite environmental concerns, lead-acid batteries remain the dominant technology for automotive starting, lighting, and ignition (SLI) systems and industrial standby power (data centres, telecoms). The growth of micro-hybrid vehicles using advanced lead-acid batteries for stop-start systems has created a new demand segment. LFP and lithium-ion competition is growing in stationary storage applications.",
+      "unit": "tonne",
+      "industries": ["Automotive Batteries", "Industrial Batteries", "Radiation Shielding", "Pigments"],
+      "keyProducers": ["China", "Australia", "United States", "Peru", "Mexico"],
+      "tags": ["battery", "recycling", "automotive", "lead-acid"],
+      "priceDrivers": [
+        "Global vehicle fleet size and battery replacement cycles",
+        "Scrap lead availability and recycling efficiency",
+        "Data centre and telecom backup power demand",
+        "Micro-hybrid vehicle start-stop system adoption",
+        "Lithium substitution pressure in stationary storage"
+      ],
+      "esgNotes": [
+        "Lead is highly toxic — exposure management critical throughout supply chain",
+        "Excellent recycling economics — 85%+ recovery rate globally",
+        "Informal recycling in developing countries causes significant contamination",
+        "Regulatory phase-out from many applications continuing"
+      ],
+      "demandSectors": [
+        { "sector": "Automotive Batteries", "share": 74 },
+        { "sector": "Industrial Batteries", "share": 15 },
+        { "sector": "Construction & Other", "share": 11 }
+      ]
+    },
+    {
+      "slug": "germanium",
+      "name": "Germanium",
+      "symbol": "Ge",
+      "category": "critical",
+      "atomicNumber": 32,
+      "description": "A critical semiconductor metalloid essential for infrared optics, fibre optic cables, and next-generation solar cells — and subject to Chinese export controls.",
+      "longDescription": "Germanium occupies a similar strategic position to gallium. Recovered as a byproduct of zinc smelting and coal ash processing, China produces approximately 60% of global refined germanium. Its unique optical transparency in the infrared spectrum makes it irreplaceable in thermal imaging systems, night-vision equipment, and military sensors. Germanium-doped silicon dioxide is the standard material for optical fibre preforms. China imposed export controls on germanium alongside gallium in 2023, causing significant supply anxiety in Western defence and telecommunications industries.",
+      "unit": "kg",
+      "industries": ["Infrared Optics", "Fibre Optics", "Semiconductors", "Defence", "Solar"],
+      "keyProducers": ["China", "Russia", "Canada", "Belgium", "Japan"],
+      "tags": ["semiconductor", "infrared", "defence", "fibre-optic", "china-export-control"],
+      "priceDrivers": [
+        "Chinese export licence approvals and quota levels",
+        "Global fibre optic cable deployment for 5G and data centres",
+        "Military and defence infrared sensor procurement",
+        "Next-generation multijunction solar cell demand",
+        "Zinc smelting capacity affecting byproduct availability"
+      ],
+      "esgNotes": [
+        "Byproduct recovery from zinc smelting and coal gasification",
+        "Very small volumes — global production approximately 130 tonnes per year",
+        "High-purity recycling from fibre optic and semiconductor scrap viable"
+      ],
+      "demandSectors": [
+        { "sector": "Infrared Optics", "share": 30 },
+        { "sector": "Fibre Optics", "share": 28 },
+        { "sector": "Electronics & Solar", "share": 24 },
+        { "sector": "Polymerisation Catalysts", "share": 18 }
+      ]
+    },
+    {
+      "slug": "rhodium",
+      "name": "Rhodium",
+      "symbol": "Rh",
+      "category": "precious",
+      "atomicNumber": 45,
+      "description": "The most expensive metal on Earth — rhodium is irreplaceable in petrol catalytic converters for nitrogen oxide (NOx) reduction.",
+      "longDescription": "Rhodium is the rarest and most expensive of all metals. It serves one primary purpose: reducing NOx emissions in petrol catalytic converters. South Africa produces approximately 80% of global supply, and the total annual production is a mere 30-35 tonnes — a market so small that a single large buyer can move the price dramatically. Rhodium reached $29,800/troy oz in 2021. It cannot be substituted in autocatalyst applications without significant emission performance degradation, making it structurally captive to internal combustion engine vehicle production.",
+      "unit": "troy_oz",
+      "industries": ["Automotive", "Chemical Catalysts", "Glassmaking", "Electrical"],
+      "keyProducers": ["South Africa", "Russia", "Zimbabwe", "Canada"],
+      "tags": ["pgm", "autocatalyst", "rare", "south-africa"],
+      "priceDrivers": [
+        "Petrol vehicle production and NOx emission standard stringency",
+        "South African mine supply — power outages and labour critical",
+        "Substitution constraints — no viable autocatalyst replacement",
+        "Industrial catalyst demand from nitric acid and acetic acid production",
+        "Secondary supply from autocatalyst recycling (~35% of supply)"
+      ],
+      "esgNotes": [
+        "Deep hard-rock mining in Bushveld Complex — energy and safety intensive",
+        "Essential for meeting Euro 6, China 6 vehicle emission standards",
+        "Rhodium recycling from end-of-life catalysts critical supply source"
+      ],
+      "demandSectors": [
+        { "sector": "Autocatalysts", "share": 80 },
+        { "sector": "Chemical Catalysts", "share": 11 },
+        { "sector": "Glassmaking & Other", "share": 9 }
+      ]
+    },
+    {
+      "slug": "tin",
+      "name": "Tin",
+      "symbol": "Sn",
+      "category": "battery",
+      "atomicNumber": 50,
+      "description": "The solder metal of the electronics age — tin joins every printed circuit board and is emerging as a next-generation battery anode material.",
+      "longDescription": "Tin is the unsung hero of electronics manufacturing. Solder — the metal glue of circuit boards — is primarily tin, and the global electronics boom has made tin a key indicator of semiconductor supply chain health. The transition to lead-free solder (driven by RoHS regulation) actually increased tin content per joint. On the horizon, tin anodes promise up to 4x the theoretical capacity of graphite in lithium-ion batteries, potentially making tin a breakout battery metal. Myanmar and Indonesia dominate supply, creating concentration risk.",
+      "unit": "tonne",
+      "industries": ["Electronics", "Solder", "Tin Plate", "Chemicals", "Batteries"],
+      "keyProducers": ["China", "Indonesia", "Myanmar", "Peru", "Bolivia"],
+      "tags": ["solder", "electronics", "battery", "circuit-board"],
+      "priceDrivers": [
+        "Global electronics production cycles — smartphones, PCs, servers",
+        "Semiconductor supply chain activity and PCB manufacturing",
+        "Myanmar mine supply (Wa State operations) — political instability risk",
+        "Indonesian export policy and mining regulation changes",
+        "Battery anode demand — tin-graphite composite anode development"
+      ],
+      "esgNotes": [
+        "Artisanal mining in DRC and Bangka Island (Indonesia) — environmental concerns",
+        "Conflict mineral risk in some supply chains",
+        "Recycling from electronics scrap still under-developed globally",
+        "Lead-free solder transition removed toxic lead but increased tin demand"
+      ],
+      "demandSectors": [
+        { "sector": "Solder", "share": 52 },
+        { "sector": "Tin Chemicals", "share": 19 },
+        { "sector": "Tin Plate & Packaging", "share": 15 },
+        { "sector": "Other Alloys", "share": 14 }
+      ]
+    },
+    {
+      "slug": "potash",
+      "name": "Potash",
+      "symbol": "K",
+      "category": "industrial",
+      "description": "The critical agricultural fertiliser input — potash (potassium chloride) is essential for crop yield and food security globally.",
+      "longDescription": "Potash is one of three macronutrients essential to plant growth alongside nitrogen and phosphorus. Approximately 95% of potash production is used as agricultural fertiliser. The global food system's ability to feed 8 billion people depends on potash. Russia and Belarus together supplied approximately 40% of global potash exports before the 2022 Ukraine invasion — sanctions on Belarus dramatically tightened supply and sent prices to all-time highs. Canada (Saskatchewan) is the world's largest producer and exporter, holding the largest identified reserves globally.",
+      "unit": "tonne",
+      "industries": ["Agriculture", "Food Production", "Chemical Manufacturing"],
+      "keyProducers": ["Canada", "Russia", "Belarus", "China", "Germany"],
+      "tags": ["fertiliser", "agriculture", "food-security", "sanctions"],
+      "priceDrivers": [
+        "Global grain prices and farmer economics (fertiliser affordability)",
+        "Belarus and Russian export availability post-sanctions",
+        "Brazilian agricultural demand — largest importer globally",
+        "Canpotex (Canadian export association) pricing and volume guidance",
+        "Crop planting intentions and seasonal demand patterns"
+      ],
+      "esgNotes": [
+        "Essential for sustainable food production and eliminating hunger",
+        "Underground solution mining (largest Canadian operations) — lower surface impact",
+        "Nutrient runoff from over-application causes waterway eutrophication",
+        "No viable substitute in agricultural applications"
+      ],
+      "demandSectors": [
+        { "sector": "Agriculture / Fertiliser", "share": 95 },
+        { "sector": "Industrial & Chemical", "share": 5 }
+      ]
+    }
+  ]
+}

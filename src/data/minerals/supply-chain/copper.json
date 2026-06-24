@@ -1,0 +1,38 @@
+{
+  "mineral": "copper",
+  "topProducers": [
+    { "rank": 1, "country": "Chile", "countryCode": "CL", "annualProductionTonnes": 5600000, "globalSharePct": 27.0, "notes": "Escondida (BHP/Rio Tinto) world's largest copper mine; water stress in Atacama a growing constraint" },
+    { "rank": 2, "country": "Peru", "countryCode": "PE", "annualProductionTonnes": 2800000, "globalSharePct": 13.5, "notes": "Las Bambas, Cerro Verde, Antamina; frequent community-related operational disruptions" },
+    { "rank": 3, "country": "Democratic Republic of Congo", "countryCode": "CD", "annualProductionTonnes": 2500000, "globalSharePct": 12.1, "notes": "Fastest-growing major producer; Kamoa-Kakula is world's highest-grade large copper deposit" },
+    { "rank": 4, "country": "China", "countryCode": "CN", "annualProductionTonnes": 1900000, "globalSharePct": 9.2, "notes": "Significant domestic consumption; China also largest processor of imported copper concentrates" },
+    { "rank": 5, "country": "United States", "countryCode": "US", "annualProductionTonnes": 920000, "globalSharePct": 4.4, "notes": "Morenci and Bingham Canyon key operations; permitting timelines constrain new development" },
+    { "rank": 6, "country": "Russia", "countryCode": "RU", "annualProductionTonnes": 920000, "globalSharePct": 4.4 },
+    { "rank": 7, "country": "Australia", "countryCode": "AU", "annualProductionTonnes": 840000, "globalSharePct": 4.1 },
+    { "rank": 8, "country": "Zambia", "countryCode": "ZM", "annualProductionTonnes": 820000, "globalSharePct": 4.0, "notes": "Copperbelt resurgence; significant Chinese investment" }
+  ],
+  "topConsumers": [
+    { "country": "China", "countryCode": "CN", "sharePct": 55 },
+    { "country": "European Union", "countryCode": "EU", "sharePct": 14 },
+    { "country": "United States", "countryCode": "US", "sharePct": 8 },
+    { "country": "Japan & South Korea", "countryCode": "XX", "sharePct": 6 },
+    { "country": "Rest of World", "countryCode": "XX", "sharePct": 17 }
+  ],
+  "processingConcentration": "China refines approximately 45% of global copper; Chilean and Zambian smelters process significant volumes. Concentrate-to-refined copper processing concentrated in Asia.",
+  "reservesEstimate": "~880 million tonnes identified global reserves (USGS 2025)",
+  "supplyRiskScore": 5,
+  "geopoliticalNotes": [
+    "Chilean water access disputes in Atacama threatening expansion of key mines",
+    "Peruvian community protests causing recurring production disruptions at Las Bambas and others",
+    "DRC political instability and infrastructure constraints on Kamoa-Kakula ramp-up",
+    "Average copper mine grade declining from 1.7% in 1900 to 0.5% today — processing costs rising",
+    "10-15 year permitting and development timelines constrain supply response to high prices"
+  ],
+  "majorCompanies": [
+    { "name": "BHP Group", "ticker": "BHP", "country": "Australia", "marketSharePct": 9.5, "notes": "Escondida operator; Oak Dam expansion planned" },
+    { "name": "Freeport-McMoRan", "ticker": "FCX", "country": "United States", "marketSharePct": 8.8, "notes": "Grasberg (Indonesia) and Morenci (US)" },
+    { "name": "Codelco", "ticker": null, "country": "Chile", "marketSharePct": 8.2, "notes": "State-owned Chilean national copper company; largest individual producer" },
+    { "name": "Glencore", "ticker": "GLEN", "country": "Switzerland", "marketSharePct": 7.4 },
+    { "name": "Ivanhoe Mines", "ticker": "IVN", "country": "Canada", "marketSharePct": 5.1, "notes": "Kamoa-Kakula operator; fastest-growing tier-1 copper producer" }
+  ],
+  "tradeFlowNotes": "Copper concentrate flows from South American and African mines to Asian smelters (primarily China, Japan, South Korea). Refined copper cathode and rod then distributed to manufacturers globally."
+}

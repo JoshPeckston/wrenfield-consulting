@@ -1,0 +1,37 @@
+{
+  "mineral": "gold",
+  "topProducers": [
+    { "rank": 1, "country": "China", "countryCode": "CN", "annualProductionTonnes": 370, "globalSharePct": 11.3, "notes": "Largest producer; domestic consumption absorbs majority of output" },
+    { "rank": 2, "country": "Australia", "countryCode": "AU", "annualProductionTonnes": 310, "globalSharePct": 9.5, "notes": "Super Pit (Kalgoorlie) and Boddington are flagship operations" },
+    { "rank": 3, "country": "Russia", "countryCode": "RU", "annualProductionTonnes": 310, "globalSharePct": 9.5, "notes": "Sanctions limiting access to Western capital markets; output resilient" },
+    { "rank": 4, "country": "Canada", "countryCode": "CA", "annualProductionTonnes": 200, "globalSharePct": 6.1, "notes": "Timmins and Red Lake regions; low geopolitical risk" },
+    { "rank": 5, "country": "United States", "countryCode": "US", "annualProductionTonnes": 170, "globalSharePct": 5.2, "notes": "Nevada (Carlin Trend) dominates; Newmont and Barrick primary operators" },
+    { "rank": 6, "country": "Ghana", "countryCode": "GH", "annualProductionTonnes": 130, "globalSharePct": 4.0 },
+    { "rank": 7, "country": "Indonesia", "countryCode": "ID", "annualProductionTonnes": 120, "globalSharePct": 3.7, "notes": "Grasberg (Freeport-McMoRan) — one of world's largest gold-copper deposits" },
+    { "rank": 8, "country": "South Africa", "countryCode": "ZA", "annualProductionTonnes": 100, "globalSharePct": 3.1, "notes": "Declining from historic dominance; ultra-deep mines increasingly uneconomic" }
+  ],
+  "topConsumers": [
+    { "country": "China", "countryCode": "CN", "sharePct": 29 },
+    { "country": "India", "countryCode": "IN", "sharePct": 23 },
+    { "country": "United States", "countryCode": "US", "sharePct": 9 },
+    { "country": "Germany", "countryCode": "DE", "sharePct": 5 },
+    { "country": "Rest of World", "countryCode": "XX", "sharePct": 34 }
+  ],
+  "processingConcentration": "Gold refining is globally distributed; Switzerland, UK, and UAE handle significant volumes of internationally traded bullion. Doré bars are shipped from mines to refiners worldwide.",
+  "reservesEstimate": "~57,000 tonnes identified global reserves (USGS 2025)",
+  "supplyRiskScore": 3,
+  "geopoliticalNotes": [
+    "Russia sanctions reducing Western institutional participation in Russian gold",
+    "African producer nations increasing resource nationalism and royalty demands",
+    "China restricting exports of gold processing chemicals in some periods",
+    "Central bank buying (China, Poland, India) supporting structural demand floor"
+  ],
+  "majorCompanies": [
+    { "name": "Newmont Corporation", "ticker": "NEM", "country": "United States", "marketSharePct": 8.5 },
+    { "name": "Barrick Gold", "ticker": "GOLD", "country": "Canada", "marketSharePct": 7.2 },
+    { "name": "Agnico Eagle", "ticker": "AEM", "country": "Canada", "marketSharePct": 4.8 },
+    { "name": "Gold Fields", "ticker": "GFI", "country": "South Africa", "marketSharePct": 3.2 },
+    { "name": "AngloGold Ashanti", "ticker": "AU", "country": "South Africa", "marketSharePct": 3.8 }
+  ],
+  "tradeFlowNotes": "Gold flows from mines to Swiss, UK, UAE, and Hong Kong refiners, then to jewellery fabricators in India, China, Turkey, and Italy, and to central bank vaults in New York, London, and Zurich."
+}

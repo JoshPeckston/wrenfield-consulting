@@ -1,0 +1,13 @@
+{
+  "mineral": "germanium",
+  "topProducers": [
+    { "rank": 1, "country": "Leading Producer", "countryCode": "XX", "annualProductionTonnes": 0, "globalSharePct": 0 }
+  ],
+  "topConsumers": [],
+  "processingConcentration": "Data loading...",
+  "reservesEstimate": "Data loading...",
+  "supplyRiskScore": 5,
+  "geopoliticalNotes": [],
+  "majorCompanies": [],
+  "tradeFlowNotes": ""
+}
